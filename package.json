@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing-tips",
+  "version": "1.0.0",
+  "description": "Examples of unit testing with Jest",
+  "main": "index.js",
+  "author": "Joshua John Villahermosa <joshvillahermosa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run test",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "jest": "^24.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.1.0"
+  }
+}

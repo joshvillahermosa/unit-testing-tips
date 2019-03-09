@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Getting Available Pets Missing arguments should return a false response if pets data is empty 1`] = `
+Object {
+  "details": "pets passed in does not have any items",
+  "success": false,
+}
+`;
+
+exports[`Getting Available Pets Missing arguments should return a false response if pets data structure is not a array 1`] = `
+Object {
+  "details": "pets passed is not type array",
+  "success": false,
+}
+`;
+
+exports[`Getting Available Pets Not returning available pets should not return pets that are not vaccinated and available 1`] = `
+Array [
+  Object {
+    "code": 3,
+    "name": "Sammy",
+    "type": "dog",
+    "vaccinated": true,
+  },
+  Object {
+    "code": 3,
+    "name": "Lemiwinks",
+    "type": "cat",
+    "vaccinated": true,
+  },
+]
+`;
+
+exports[`Getting Available Pets should return pets that are available and vaccinated 1`] = `
+Array [
+  Object {
+    "code": 3,
+    "name": "Sammy",
+    "type": "dog",
+    "vaccinated": true,
+  },
+  Object {
+    "code": 3,
+    "name": "Lemiwinks",
+    "type": "cat",
+    "vaccinated": true,
+  },
+]
+`;
