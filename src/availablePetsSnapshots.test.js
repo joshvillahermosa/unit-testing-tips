@@ -7,7 +7,6 @@ import { returnAvailablePets } from './availablePets'
 /**
  * 1. Lets set up our data inputs to plug in our function in test
  */
-
 const CODES = {
   AVAILABLE: 3
 }
